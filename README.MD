@@ -4,7 +4,7 @@ This branch stores the smart contract code that was used to simulate a VCG aucti
 
 ## Instructions to test the contract
 
-* Open the [Remix IDE](https://remix.ethereum.org/) and create a new* *.sol* file. For steps ahead, we will refer this file by *auction.sol*. 
+* Open the [Remix IDE](https://remix.ethereum.org/) and create a new *.*sol* file. For steps ahead, we will refer this file by *auction.sol*. 
 
 * Copy and Paste the code present inside *VCG.sol* in *auction.sol* and compile the code. 
 
