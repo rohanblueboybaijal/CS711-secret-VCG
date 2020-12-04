@@ -1,9 +1,0 @@
-{
-  "name": "rohan",
-  "type": "local",
-  "address": "secret1rc88hsvqkzekyjuarapwsjnes0vgwmq9f3qj4k",
-  "pubkey": "secretpub1addwnpepqf2xzgww76xj25ul8f9dr7lyznnf89uqyaq25mts4pchrwpqh6dzkks9hjt",
-  "mnemonic": "sport limit write cricket job fade tobacco enter girl fold small response arctic shift broken humble bachelor label alert parent lobster amazing drama public"
-}
-pw - rohan
-passphrase - Rohan8384
