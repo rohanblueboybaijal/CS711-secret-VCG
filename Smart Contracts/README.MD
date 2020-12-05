@@ -52,3 +52,7 @@ Highest bid and bidder can respectively be seen by clicking on the respective bu
 
 * Any bidder can withdraw and make a new bid during bidding period by following the previous step.
 
+---
+
+You can view a step by step simulation of running a VCG auction on Smart Contracts [here](https://youtu.be/kgCkKmR4dKw)
+
