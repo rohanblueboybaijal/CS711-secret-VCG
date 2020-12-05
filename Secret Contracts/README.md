@@ -140,3 +140,7 @@ secretcli q snip20 balance *bid_or_sell_tokens_contract_address* *your_key_addr(
 Following the above steps will allow you to sucessfully run the VCG auction we created on the secret network.
 You can view a step by step simulation of the above procedure using the `auction.sh` script [here](./Assets/simulation.pdf)
 
+
+---
+We would also like to thank [baedrik](https://github.com/baedrik) whose template code we used to build our own contract.
+
