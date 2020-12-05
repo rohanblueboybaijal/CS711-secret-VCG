@@ -72,7 +72,7 @@ For the tokens created using the default token protocol, the code hash is `e87c2
 
 The auction will not allow a sale amount of 0
 
-## 3. Viewing the Auction Information
+### 3. Viewing the Auction Information
 You can view the sell and bid token information, the amount being sold, the minimum bid, the description if present, the auction contract address, and the status of the auction with
 ```sh
 secretcli q compute query *auction_contract_address* '{"auction_info":{}} | jq'
@@ -97,7 +97,7 @@ The tokens bid will be placed in escrow until the auction has concluded or you c
 
 The auction will not allow a bid of 0.
 
-## 6. View Your Active Bid
+### 6. View Your Active Bid
 You may view your current active bid amount and the time the bid was placed with
 ```sh
 secretcli tx compute execute *auction_contract_address* '{"view_bid": {}}' --from *your_key_alias_or_addr* --gas 200000 -y
@@ -111,7 +111,7 @@ secretcli tx compute execute *auction_contract_address* '{"retract_bid": {}}' --
 ```
 You may retract your bid at any time before the auction closes to both retract your bid and to return your tokens.
 
-## 8. Finalizing the Auction Sale
+### 8. Finalizing the Auction Sale
 The auction creator may close an auction with
 ```sh
 secretcli tx compute execute *auction_contract_address* '{"finalize": {"only_if_bids": *true_or_false*}}' --from *your_key_alias_or_addr* --gas 2000000 -y
@@ -119,7 +119,7 @@ secretcli tx compute execute *auction_contract_address* '{"finalize": {"only_if_
 Only the auction creator can finalize an auction.  The boolean only\_if\_bids parameter is used to prevent the auction from closing if there are no active bids.  If there are no active bids, but only\_if\_bids was set to false, then the auction will be closed, and all consigned tokens will be returned to the auction creator. 
 If the auction is closed before the auction creator has consigned all the tokens for sale, any tokens consigned will be returned to the auction creator, and any active bids will be returned to the bidders.  If all the sale tokens have been consigned, and there is more than one active bid, then the highest bidder is considered the winner, and the amount to be payed by the winner is the amount he bidded if there is only one bidder, or the second highest bid amount, if more than one person placed a bid (if tied, the tying bid placed earlier will be accepted).  The auction will then swap the tokens between the auction creator and the highest bidder, and return all the non-winning bids to their respective bidders.
 
-## 9. Viewing account balances
+### 9. Viewing account balances
 In order to view balances, the Secret Network requires additional viewing keys, which can be created by the following command:
 ```sh
 secretcli tx snip20 create-viewing-key *bid_or_sell_tokens_contract_address* --from *your_key_alias_or_addr*
