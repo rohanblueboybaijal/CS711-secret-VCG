@@ -6,4 +6,5 @@ to run the Smart Contract based auctions.
 
 You can view our presentation [here](presentation.pdf)  
 Step by step simulations of VCG auctions on [Smart Contracts](https://youtu.be/kgCkKmR4dKw), [Secret Contracts](Secret%20Contracts/Assets/simulation.pdf)
+
 You can view our project report [here](Group7_Project Report.pdf)
